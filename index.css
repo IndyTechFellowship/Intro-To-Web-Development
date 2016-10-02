@@ -1,4 +1,5 @@
 * {
+	background-color: #f7f7f7;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
@@ -14,4 +15,24 @@ h2 {
 
 p, li {
 	font-size: 24px;
+}
+
+ul li {
+	color: blue;
+}
+
+ol li {
+	color: red;
+}
+
+h1, h2 {
+	color: green;
+}
+
+#mainHeader {
+	/* add content here */
+}
+
+.resumeSubheader {
+	/* add context here */
 }
