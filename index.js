@@ -1,5 +1,8 @@
 $(document).ready(function() {
-	$("h1").click(function(e) {
-		console.log("You clicked an h1");
+	$(".submitButton").click(function(e) {
+		e.preventDefault()
+		const userName = $('.nameInput').val()
+		$(".visitorList").append("<p>" + userName + "</p>")
+		$(".nameInput").val("")
 	});
 });
